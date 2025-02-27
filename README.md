@@ -3,7 +3,7 @@ Node.js (v16 or later)
 
 # Setup
 # Clone the repository
-- git clone 
+- git clone https://github.com/KevalGondaliya/SocialMediaAssetGenerator.git
 - cd SocialMediaAssetGenerator
 
 - npm install
