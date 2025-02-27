@@ -1,14 +1,14 @@
-# Social Media Asset Generator
+## Social Media Asset Generator
 Node.js (v16 or later)
 
-# Setup
+## Setup
 - git clone https://github.com/KevalGondaliya/SocialMediaAssetGenerator.git
 - cd SocialMediaAssetGenerator
 
 - npm install
 - npm run dev
 
-# Frontend Architecture
+## Project Structure
 
 ```tree
 src/
@@ -20,9 +20,9 @@ src/
 ├── pages/
 ├── Index.tsx                 # Main application page
 └── App.tsx                   # Root component
-```tree
+```
 
-# Key Components
+## Key Components
 
 * BrandAssetUploader: Manages logo and image uploads
 
