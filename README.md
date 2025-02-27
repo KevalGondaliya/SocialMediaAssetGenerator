@@ -9,6 +9,7 @@ Node.js (v16 or later)
 - npm run dev
 
 # Frontend Architecture
+
 ```tree
 src/
 ├── components/
@@ -19,7 +20,7 @@ src/
 ├── pages/
 ├── Index.tsx                 # Main application page
 └── App.tsx                   # Root component
-tree```
+```tree
 
 # Key Components
 
