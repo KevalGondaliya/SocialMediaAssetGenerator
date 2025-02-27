@@ -30,7 +30,7 @@ src/
 
 * AssetPreview: Displays and enables downloading of generated assets
 
-# State Management
+## State Management
 
 * Local state using React's useState for:
 - Uploaded assets (logo and images)
