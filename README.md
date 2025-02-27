@@ -3,22 +3,22 @@ Node.js (v16 or later)
 
 # Setup
 # Clone the repository
-* git clone 
-* cd SocialMediaAssetGenerator
+- git clone 
+- cd SocialMediaAssetGenerator
 
-* npm install
-* npm run dev
+- npm install
+- npm run dev
 
 # Frontend Architecture
-src/
-├── components/
-│   ├── BrandAssetUploader/   # Handles file uploads
-│   ├── BrandParameters/      # Brand customization form
-│   ├── AssetPreview/         # Preview generated assets
-│   └── ui/                   # Reusable UI components
-├── pages/
-│   └── Index.tsx            # Main application page
-└── App.tsx                  # Root component
+* src/
+- ├── components/
+- │   ├── BrandAssetUploader/   # Handles file uploads
+- │   ├── BrandParameters/      # Brand customization form
+- │   ├── AssetPreview/         # Preview generated assets
+- │   └── ui/                   # Reusable UI components
+- ├── pages/
+- │   └── Index.tsx            # Main application page
+- └── App.tsx                  # Root component
 
 # Key Components
 
