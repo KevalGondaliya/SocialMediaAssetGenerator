@@ -19,6 +19,7 @@ src/
 ├── pages/
 ├── Index.tsx                 # Main application page
 └── App.tsx                   # Root component
+tree```
 
 # Key Components
 
