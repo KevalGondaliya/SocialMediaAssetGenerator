@@ -1,7 +1,8 @@
 ## Social Media Asset Generator
 Node.js (v16 or later)
 
-## Setup
+
+# Setup
 - git clone https://github.com/KevalGondaliya/SocialMediaAssetGenerator.git
 - cd SocialMediaAssetGenerator
 
