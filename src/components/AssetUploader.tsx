@@ -104,7 +104,7 @@ const AssetUploader: React.FC<AssetUploaderProps> = ({ onAssetsChange, className
           />
           
           <button 
-            className="px-4 py-2 rounded-md bg-black text-white text-sm font-medium transition-all hover:bg-gray-900 active:scale-95"
+            className="px-4 py-2 rounded-md bg-gray-100 text-gray-700 hover:bg-gray-800 hover:text-white text-sm font-medium transition-all active:scale-95"
             onClick={(e) => e.stopPropagation()}
           >
             Select Files
@@ -128,7 +128,7 @@ const AssetUploader: React.FC<AssetUploaderProps> = ({ onAssetsChange, className
                 </div>
                 
                 <button
-                  className="absolute top-2 right-2 h-6 w-6 flex items-center justify-center bg-black/60 rounded-full text-white"
+                  className="absolute top-2 right-2 h-6 w-6 flex items-center justify-center bg-gray-400 rounded-full text-white"
                   onClick={(e) => {
                     e.stopPropagation();
                     removeAsset(asset.id);

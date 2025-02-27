@@ -33,17 +33,16 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <Header />
 
       <main className="flex-1">
         {/* Hero Section */}
         <section className="py-16 md:py-24 px-4">
           <div className="content-container text-center max-w-4xl mx-auto animate-slide-up">
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              Create branded social media assets in seconds
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-gray-300">
+              Social Media Asset Generator
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
-              Upload your brand assets, customize your design, and generate professional social media graphics powered by ComfyUI.
+              Upload your brand assets, customize your design, and generate professional social media graphics
             </p>
           </div>
         </section>
@@ -58,7 +57,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-2 mb-2">
                     <div className="h-6 w-6 rounded-full bg-black text-white flex items-center justify-center text-sm font-medium">1</div>
-                    <h2 className="text-2xl font-semibold">Upload Brand Assets</h2>
+                    <h2 className="text-2xl font-semibold text-gray-500">Upload Brand Assets</h2>
                   </div>
                   <AssetUploader
                     onAssetsChange={setBrandAssets}
@@ -69,7 +68,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-2 mb-2">
                     <div className="h-6 w-6 rounded-full bg-black text-white flex items-center justify-center text-sm font-medium">2</div>
-                    <h2 className="text-2xl font-semibold">Configure Brand</h2>
+                    <h2 className="text-2xl font-semibold text-gray-500">Configure Brand</h2>
                   </div>
                   <BrandForm
                     onChange={setBrandConfig}
@@ -80,7 +79,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <div className="flex items-center space-x-2 mb-2">
                     <div className="h-6 w-6 rounded-full bg-black text-white flex items-center justify-center text-sm font-medium">3</div>
-                    <h2 className="text-2xl font-semibold">Generate Assets</h2>
+                    <h2 className="text-2xl font-semibold text-gray-500">Generate Assets</h2>
                   </div>
                   <AssetGenerator
                     brandAssets={brandAssets}
@@ -94,7 +93,7 @@ const Index = () => {
               <div className="space-y-8 animate-fade-in">
                 <div className="flex items-center space-x-2 mb-2">
                   <div className="h-6 w-6 rounded-full bg-black text-white flex items-center justify-center text-sm font-medium">4</div>
-                  <h2 className="text-2xl font-semibold">Preview & Download</h2>
+                  <h2 className="text-2xl font-semibold text-gray-500">Preview & Download</h2>
                 </div>
 
                 <div className="space-y-6">
@@ -129,7 +128,6 @@ const Index = () => {
 
       </main>
 
-      <Footer />
     </div>
   );
 };

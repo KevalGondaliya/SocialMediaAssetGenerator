@@ -101,7 +101,7 @@ const AssetGenerator: React.FC<AssetGeneratorProps> = ({
                 className={cn(
                   "px-4 py-3 rounded-md text-sm font-medium text-center transition-all",
                   formState.format === "instagram" 
-                    ? "bg-black text-white" 
+                    ? "bg-gray-800 text-white" 
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 )}
                 onClick={() => setFormState(prev => ({ ...prev, format: "instagram" }))}
@@ -114,7 +114,7 @@ const AssetGenerator: React.FC<AssetGeneratorProps> = ({
                 className={cn(
                   "px-4 py-3 rounded-md text-sm font-medium text-center transition-all",
                   formState.format === "linkedin" 
-                    ? "bg-black text-white" 
+                    ? "bg-gray-800 text-white" 
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 )}
                 onClick={() => setFormState(prev => ({ ...prev, format: "linkedin" }))}
@@ -202,7 +202,7 @@ const AssetGenerator: React.FC<AssetGeneratorProps> = ({
         <button
           className={cn(
             "w-full py-3 px-4 rounded-md text-sm font-medium transition-all",
-            "bg-black text-white hover:bg-gray-900 active:scale-99",
+            "bg-gray-100 text-gray-700 hover:bg-gray-800 hover:text-white active:scale-99",
             isGenerating && "opacity-70 pointer-events-none"
           )}
           onClick={handleGenerate}
