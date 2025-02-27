@@ -9,15 +9,16 @@ Node.js (v16 or later)
 - npm run dev
 
 # Frontend Architecture
-* src/
-- components/
--  BrandAssetUploader/   # Handles file uploads
--  BrandParameters/      # Brand customization form
--  AssetPreview/         # Preview generated assets
--  ui/                   # Reusable UI components
--  pages/
--  Index.tsx             # Main application page
--  App.tsx               # Root component
+```tree
+src/
+├── components/
+│   ├── BrandAssetUploader/   # Handles file uploads
+│   ├── BrandParameters/      # Brand customization form
+│   ├── AssetPreview/         # Preview generated assets
+│   └── ui/                   # Reusable UI components
+├── pages/
+├── Index.tsx                 # Main application page
+└── App.tsx                   # Root component
 
 # Key Components
 
