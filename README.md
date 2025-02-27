@@ -3,11 +3,11 @@ Node.js (v16 or later)
 
 # Setup
 # Clone the repository
-git clone 
-cd SocialMediaAssetGenerator
+* git clone 
+* cd SocialMediaAssetGenerator
 
-npm install
-npm run dev
+* npm install
+* npm run dev
 
 # Frontend Architecture
 src/
@@ -22,16 +22,16 @@ src/
 
 # Key Components
 
-BrandAssetUploader: Manages logo and image uploads
+* BrandAssetUploader: Manages logo and image uploads
 
-BrandParameters: Handles brand customization (colors, positioning)
+* BrandParameters: Handles brand customization (colors, positioning)
 
-AssetPreview: Displays and enables downloading of generated assets
+* AssetPreview: Displays and enables downloading of generated assets
 
 # State Management
 
 * Local state using React's useState for:
-Uploaded assets (logo and images)
-Brand parameters (colors, format, positioning)
-Generation status
-Preview URL
+- Uploaded assets (logo and images)
+- Brand parameters (colors, format, positioning)
+- Generation status
+- Preview URL
